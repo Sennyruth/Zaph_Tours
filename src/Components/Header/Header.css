@@ -5,7 +5,7 @@
     justify-content:space-between;
     align-items: center;
     height: 15vh;
-    background-color: aquamarine;
+    background-color:#b7c064;
 }
 .logo{
     font-family: "Dancing Script", cursive;
@@ -26,4 +26,5 @@
     text-transform: capitalize;
     font-size: 30px;
     font-family: "Roboto", sans-serif;
+    color:black;
 }

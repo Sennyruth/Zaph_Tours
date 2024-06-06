@@ -1,13 +1,14 @@
 import "./Home.css";
 const Hero = () => {
+    return(
   <section className="Hero-section">
     <div className="hero-image"></div>
     <div className="hero-content">
       <h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-        doloremque.
+      Best safaris and adventures
       </h2>
     </div>
-  </section>;
+  </section>
+  );
 };
 export default Hero;
