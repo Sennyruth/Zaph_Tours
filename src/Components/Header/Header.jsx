@@ -10,7 +10,7 @@ const Header = () => {
                         <ol className="nav-list">
                             <li className="nav-list-items"><a href="">Home</a></li>
                             <li className="nav-list-items"><a href="">Destination</a></li>
-                            <li className="nav-list-items"><a href="">Trip Types</a></li>
+                            <li className="nav-list-items"><a href="">Trips</a></li>
                             <li className="nav-list-items"><a href="">Contacts</a></li>
                         </ol>
                     </nav>
