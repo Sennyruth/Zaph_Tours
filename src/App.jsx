@@ -1,8 +1,8 @@
 import Header  from "./Components/Header/Header";
 import Home from "./Pages/Home/Home";
 import Destination from "./Pages/Destination/Destination";
-import Trips from "./Pages/Trips/Trips";
-import contacts from "./Pages/Contact/Contacts"
+import Trips from "./Pages/Trip/Trips";
+import Contacts from "./Pages/Contact/Contacts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
 
