@@ -5,6 +5,10 @@ body{
     box-sizing: border-box;
     background-color:beige;
 }
+p{
+  line-height: 20px;
+  margin-left: 10px;
+}
 .Hero-section {
   background-size: cover;
   background-repeat: no-repeat;
@@ -167,4 +171,51 @@ button:hover{
 .rating{
     color: aliceblue;
     size: 80%;
+}
+.news-container{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 10px;
+  gap: 4rem;
+  background-color: #85a773;
+
+}
+.news-items{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:50px ;
+  
+}
+.news-container img{
+  width: 40rem;
+}
+.input1{
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+label{
+  margin-left: 10px;
+  font-size: 30px;
+}
+input{
+  margin-right: 10px;
+}
+.news-btn{
+  display: grid;
+  place-content: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 50px;
+}
+.subtitle{
+  font-size: 30px;
+
+}
+.travel{
+  display: grid;
+  place-content: center;
+
 }

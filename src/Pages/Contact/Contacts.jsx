@@ -10,7 +10,7 @@ import { MdEmail } from "react-icons/md";
 const Contacts = () => {
   return (
     <section className="contact-container">
-      <h1>Welcome All</h1>
+      <h2 className="contact-maintitle">Contact Us</h2>
       <div className="nb-map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d510564.65107988653!2d36.5177334104462!3d-1.3031873859975642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1717765632384!5m2!1sen!2ske"
