@@ -6,6 +6,8 @@
     align-items: center;
     height: 15vh;
     background-color:#b7c064;
+    position: sticky;
+    width: 100%;
 }
 .logo{
     font-family: "Dancing Script", cursive;

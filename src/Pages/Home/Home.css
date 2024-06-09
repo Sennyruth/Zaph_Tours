@@ -3,18 +3,11 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:rgb(228, 218, 218);
+    background-color:beige;
 }
 .Hero-section {
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 h2{
     color: black;
@@ -38,17 +31,21 @@ h2{
   justify-content: center;
   align-items: center;
   height: 60vh;
-  background-color: #90D26D;
+  background-color:#b7c064;
+  width: 100%;
 }
 .about-content {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  height: 60vh;
 }
 .about-content img {
   width: 30%;
   border-radius: 15px;
+  display: block;
+  object-fit: cover;
 }
 .about-content img:hover{
     transform: scale(95%);
@@ -62,9 +59,8 @@ h2{
 }
 
 .video-background {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+width: 100%;
+height: auto;
 }
 .dest-container{
   background-color: #75A47F;
@@ -73,7 +69,6 @@ h2{
   justify-content: center;
   align-items: center;
   width:20rem;
-  height: 30rem;
   border-radius: 20px;
   box-shadow: 3px 8px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 8px 5px 0px rgba(0, 0, 0, 0.75);
@@ -124,7 +119,7 @@ button:hover{
     box-sizing: border-box;
     border:solid #75A47F;
     width: 20rem;
-    height: 30rem;
+
     background-color: #50727B;
     border-radius: 10px;
 
@@ -149,8 +144,7 @@ button:hover{
 .test-text{
     color: white;
     font-size: 20px;
-    padding: -40px;
-    margin-bottom: -30px;
+  
 }
 .testimonials-container img{
     width: 10rem;
@@ -158,13 +152,11 @@ button:hover{
     border-radius: 100%;
     display: block;
     object-fit: cover;
-    transform: translateY(25%);
+    transform: translateY(50%);
 }
 .quotes{
     color: aquamarine;
     font-size: 80px;
-    padding: -40px;
-    margin-bottom: 20px;
 }
 .test-rating{
     display: flex;

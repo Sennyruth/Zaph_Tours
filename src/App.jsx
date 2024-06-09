@@ -1,4 +1,5 @@
 import Header  from "./Components/Header/Header";
+import Footer  from "./Components/Footer/Footer";
 import Home from "./Pages/Home/Home";
 import Destination from "./Pages/Destination/Destination";
 import Trips from "./Pages/Trip/Trips";
@@ -10,14 +11,13 @@ function App() {
     <>
        <BrowserRouter>
         <Header/>
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destination" element={<Destination />} />
           <Route path="/trips" element={<Trips/>} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
      
     </>

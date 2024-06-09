@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.trip-maintitle{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+.trip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: bisque;
+    width: 40%;
+   
+}
+.trip-container:hover{
+    background-color:#75A47F ;
+    transform: scale(95%);
+    color:black; 
+}
+/* .alternate{
+    flex-direction: row-reverse; */
+
+.trip-container img{
+    width: 20rem;
+    border-radius: 10px;
+}
+.trip-container img:hover{
+    transform: scale(95%);
+    transition: 0.5s ease;
+}
+.prices{
+    background-color: #6F4E37;
+    font-size: 15px;
+    padding: 10px;
+
+}
+.container-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+.maintrip-container{
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}

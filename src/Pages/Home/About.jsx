@@ -1,5 +1,5 @@
 
- import zaph5Img from "../../assets/zaph5.jpg";
+import zaph5Img from "../../assets/zaph5.jpg";
 const About = () => {
   return (
     <section className="about-section">
@@ -11,6 +11,7 @@ const About = () => {
           suscipit vitae quidem! Quisquam dolor optio voluptates! Minima, itaque
           possimus.
         </p>
+        <button type="button">Travel Now</button>
       </div>
     </section>
   );
