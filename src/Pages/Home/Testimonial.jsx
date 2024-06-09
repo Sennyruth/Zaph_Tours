@@ -17,7 +17,7 @@ const Testimonial = () => {
                 </div>
                 
                 <p className="test-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati ea amet neque, at omnis aliquam eos consequuntur quos aut aspernatur suscipit ex delectus non beatae provident accusamus temporibus. Sed."</p>
-            <h2>Diana Mwende</h2>
+            <h3>Diana Mwende</h3>
             <img src={ alumni2Img} alt="" />
             </div>
             <div className="testimonials-container">
@@ -30,7 +30,7 @@ const Testimonial = () => {
                 </div>
                 
                 <p className="test-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati ea amet neque, at omnis aliquam eos consequuntur quos aut aspernatur suscipit ex delectus non beatae provident accusamus temporibus. Sed."</p>
-            <h2>Ruth Mutisya</h2>
+            <h3>Ruth Mutisya</h3>
             <img src={ alumni2Img} alt="" />
             </div>
             <div className="testimonials-container">
@@ -43,7 +43,7 @@ const Testimonial = () => {
                 </div>
                 
                 <p className="test-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati ea amet neque, at omnis aliquam eos consequuntur quos aut aspernatur suscipit ex delectus non beatae provident accusamus temporibus. Sed."</p>
-            <h2>Lydia Mwangi</h2>
+            <h3>Lydia Mwangi</h3>
             <img src={ alumni2Img} alt="" />
             </div>
             <div className="testimonials-container">
@@ -56,7 +56,7 @@ const Testimonial = () => {
                 </div>
                 
                 <p className="test-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae obcaecati ea amet neque, at omnis aliquam eos consequuntur quos aut aspernatur suscipit ex delectus non beatae provident accusamus temporibus. Sed."</p>
-            <h2>Denzel Lawrence</h2>
+            <h3>Denzel Lawrence</h3>
             <img src={ alumni2Img} alt="" />
             </div>
             </div>

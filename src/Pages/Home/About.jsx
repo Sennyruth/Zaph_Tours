@@ -3,7 +3,7 @@ import zaph5Img from "../../assets/zaph5.jpg";
 const About = () => {
   return (
     <section className="about-section">
-        <h2>About Us</h2>
+        <h2 className="abt-maintitle">About Us</h2>
       <div className="about-content">
       <img src={zaph5Img} alt="Ruths image" /> 
         <p>
