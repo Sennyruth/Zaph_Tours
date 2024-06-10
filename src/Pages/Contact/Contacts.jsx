@@ -28,16 +28,20 @@ const Contacts = () => {
           <br />
           <label htmlFor="courses">Subject</label>
           <br />
-          <input type="text" id="email" placeholder="email address" />
+          <input type="text" id="email"/><br />
+          <label htmlFor="text">Write a message</label><br />
+          <textarea name="" id="text" rows="4" cols="20"></textarea>
+          <button type="button" className="form-btn">Submit</button>
           </form>
       </div>
       <div className="touch">
         <h2 className="g-touch">Get in Touch:</h2>
       </div>
       <div className="gtouch-container">
+      <div className="location-items"></div>
       <div className="address">
-      <FaLocationDot />
-      <h2>ADDRESS</h2>
+      <p className="location"><FaLocationDot /></p>
+      <h2 className="location1">ADDRESS</h2>
       <h2>Zaph Tours and Travels Company</h2>
       <p>6950 S. Jordan Road
     </p>
@@ -54,30 +58,33 @@ const Contacts = () => {
     Pflugerville, TX 78660</p>
       </div>
       <div className="call">
-      <PiPhoneCallFill />
+      <p className="location"><PiPhoneCallFill /></p>
       <h2>PHONE</h2>
-      <h2>Weifield Group Contracting</h2>
+      <h2>Special Promotions Call</h2>
       <p>+2547985674</p>
-      <h2>Weifield Group Contracting</h2>
+      <h2> Post-Trip Follow-Up</h2>
       <p>+2547985674</p>
-      <h2>Weifield Group Contracting</h2>
+      <h2>Reminder Call for Upcoming Trip</h2>
       <p>+2547985674</p>
-      <h2>Weifield Group Contracting</h2>
+      <h2>Last-Minute Deal Offer</h2>
       <p>+2547985674</p>
-      <h2>Weifield Group Contracting</h2>
+      <h2>Re-Engagement Call</h2>
       <p>+2547985674</p>
 
       </div>
       <div className="email">
-      <MdEmail />
+      <p className="location"><MdEmail /></p>
         <h2>EMAIL</h2>
-        <h2>Request for Proposal</h2>
-        <p>tyui</p>
-        <h2>All Bid Opportunities</h2>
-        <p>wertyui</p>
-        <h2>Electrical Service Calls</h2>
-        <p>ghjkl</p>
-        <h2>Employment Opportunities</h2>
+        <h2> Destination Highlight</h2>
+        <p>info@zaphtours.com</p>
+        <h2>Customer Testimonial</h2>
+        <p>info@zaphtourstest.com</p>
+        <h2>Travel Tips</h2>
+        <p>info@traveltips.com</p>
+        <h2>Seasonal Promotion</h2>
+        <p>info@promition.com</p>
+        <h2> Welcome Email</h2>
+        <p>info@zaphtoursltd.com</p>
       </div>
       </div>
      

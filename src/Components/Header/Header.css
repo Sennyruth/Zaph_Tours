@@ -4,10 +4,11 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-    height: 15vh;
+    height: 10vh;
     background-color:#b7c064;
-    position: sticky;
     width: 100%;
+    padding: 1rem;
+    margin: 10px;
 }
 .logo{
     font-family: "Dancing Script", cursive;
@@ -26,7 +27,12 @@
 .nav-list-items a{
     text-decoration: none;
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     color:black;
+}
+.nav-list-items a:hover{
+    background-color:black;
+    transform: scale(95%);
+    color:white; 
 }

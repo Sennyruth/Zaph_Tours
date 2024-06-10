@@ -11,7 +11,6 @@ const About = () => {
           suscipit vitae quidem! Quisquam dolor optio voluptates! Minima, itaque
           possimus.
         </p>
-        <button type="button" className="travel">Travel Now</button>
       </div>
     </section>
   );
